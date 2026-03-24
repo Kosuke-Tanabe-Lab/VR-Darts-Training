@@ -25,7 +25,7 @@ Participants use the Touch controller in their dominant hand to interact with th
 
 ---
 
-## Installation Guide (for Peer Reviewers)
+## Installation Guide
 To verify the system or replicate the experiment, follow these steps to install the application on a Meta Quest 2 headset:
 
 1. **Enable Developer Mode:** Ensure your Meta account is registered as a developer and "Developer Mode" is enabled on your Quest 2 via the Meta Horizon mobile app.
