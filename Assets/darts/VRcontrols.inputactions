@@ -1,0 +1,45 @@
+{
+    "name": "VRcontrols",
+    "maps": [
+        {
+            "name": "VRControls",
+            "id": "4dfe1668-7a6c-4609-9512-3a1521f2e64b",
+            "actions": [
+                {
+                    "name": "StickClick",
+                    "type": "Button",
+                    "id": "1dab4d00-8550-4262-8456-d6f7c5b92a9c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd779959-e32d-4fea-9717-dbecd5690936",
+                    "path": "<XRController>{LeftHand}/primary2DAxisClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StickClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df6bfeb6-1e57-41a8-b10f-d1440abeb9c7",
+                    "path": "<XRController>{RightHand}/primary2DAxisClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StickClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
