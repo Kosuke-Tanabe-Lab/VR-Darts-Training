@@ -8,7 +8,7 @@ The simulation was developed using the Unity game engine (Unity Technologies, Sa
 ### Key Features:
 * **Realistic Environment:** The virtual space replicates real-world assessment conditions, with the center of the dartboard positioned **173 cm** above the floor and a horizontal throwing distance of **244 cm**.
 * **Physics-Based Simulation:** Dart flight trajectories are calculated using Unity’s built-in physics engine to ensure a realistic representation of throwing mechanics.
-* **Data Accuracy:** Unlike real-world soft-tip darts where bounce-outs can occur, this system is programmed to ensure all throws land on the board for consistent data collection.
+* **Impact Handling:** Bounce-outs are not simulated. Throws that hit the virtual dartboard remain on it, whereas throws that miss the dartboard strike a virtual wall positioned in the same plane as the dartboard surface. Radial error is calculated for all throws, including misses, but misses are excluded from the calculations of mean radial error (MRE) and standard deviation of radial error (SDRE).
 * **Performance Feedback:** After each throw, the distance from the impact point to the center of the board is displayed in-headset (in centimeters, to one decimal place).
 
 ---
